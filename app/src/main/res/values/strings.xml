@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RoomWithRxJava2</string>
+    <string name="text_get_api">GET API</string>
+    <string name="text_show_data">SHOW DATA</string>
+</resources>

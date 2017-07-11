@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/jackyhieu1211/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/jackyhieu1211/Downloads/RoomWithRxJava2/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_e8c7b094804ebbea18ede1957ba98cb2b145e0b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackyhieu1211/.android/build-cache/8313511def4c54c6a80cce2989bb738348135040/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7d5e088ec6c37186a2b6f214a46ce547707c691e">
+        <dex dex="/Users/jackyhieu1211/Downloads/RoomWithRxJava2/app/build/intermediates/pre-dexed/debug/classes_788abae6ba55e81264b9a936e174d682b31fe8a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackyhieu1211/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.5.0/94c11f915bfe1aeaa5ef6351ddfbe58bae1ea397/logging-interceptor-3.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="94c11f915bfe1aeaa5ef6351ddfbe58bae1ea397">
+        <dex dex="/Users/jackyhieu1211/Downloads/RoomWithRxJava2/app/build/intermediates/pre-dexed/debug/logging-interceptor-3.5.0_daf156ecab2d5e05bae61953818d67553633ec90.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackyhieu1211/.android/build-cache/a8930ab63be83ed19b352f9c7bf4ca0aff058ba2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="72d1cbd9e32623c2ee242e5f17e23a62196c6d0c">
+        <dex dex="/Users/jackyhieu1211/Downloads/RoomWithRxJava2/app/build/intermediates/pre-dexed/debug/classes_bc80ad9e5e9c607d89373ad9276f5dbd64d33c00.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackyhieu1211/.gradle/caches/modules-2/files-2.1/android.arch.persistence.room/common/1.0.0-alpha3/f2cae03913b7d56a18f4266d0b1542fec97c6c22/common-1.0.0-alpha3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f2cae03913b7d56a18f4266d0b1542fec97c6c22">
+        <dex dex="/Users/jackyhieu1211/Downloads/RoomWithRxJava2/app/build/intermediates/pre-dexed/debug/common-1.0.0-alpha3_89ee212dcaacb589117599fbff9350f03ad9e6d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackyhieu1211/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.0.6/b0100ee9ceee5d1861371aefc814cee3e78ed23b/rxjava-2.0.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b0100ee9ceee5d1861371aefc814cee3e78ed23b">
+        <dex dex="/Users/jackyhieu1211/Downloads/RoomWithRxJava2/app/build/intermediates/pre-dexed/debug/rxjava-2.0.6_b158144b9944479d7808f61c12a959654e9a8f73.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackyhieu1211/.android/build-cache/03883dbef276e5b97847d1dffa35f3650c3077f0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="64e51eca7fd367182f23390941a9bed9fc39a152">
+        <dex dex="/Users/jackyhieu1211/Downloads/RoomWithRxJava2/app/build/intermediates/pre-dexed/debug/classes_3d9ec00b9a2f1fe8378c7f120c2eb58be6e9227d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackyhieu1211/.android/build-cache/55b8408043cf187f08adef07f9421cc051c3ceae/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a3e997458b527055c356d33e1eef6ce9bb71a31d">
+        <dex dex="/Users/jackyhieu1211/Downloads/RoomWithRxJava2/app/build/intermediates/pre-dexed/debug/classes_881f961c275542e2824b35f1a6d2899a6477e638.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackyhieu1211/.android/build-cache/910ebf1c552922b116b864d5ec694804adcb0fed/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/jackyhieu1211/Downloads/RoomWithRxJava2/app/build/intermediates/pre-dexed/debug/classes_a34c0cc2fadea02946610ee71a2c80f993e977fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackyhieu1211/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="/Users/jackyhieu1211/Downloads/RoomWithRxJava2/app/build/intermediates/pre-dexed/debug/jsr305-1.3.9_e3b7df5dfc21dcacfab8090e6ff8009837291195.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackyhieu1211/.android/build-cache/4a02b106d777e67e5127fc9f9bbf515aa55c3a5e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="aa4b0a731562216e155017a787adf304a633c732">
+        <dex dex="/Users/jackyhieu1211/Downloads/RoomWithRxJava2/app/build/intermediates/pre-dexed/debug/classes_198874e5af3dea5093b50984f1e281e636332377.jar" />
+    </item>
+
+</items>
