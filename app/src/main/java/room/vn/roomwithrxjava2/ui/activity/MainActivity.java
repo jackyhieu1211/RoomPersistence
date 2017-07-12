@@ -19,6 +19,7 @@ import room.vn.roomwithrxjava2.room.AppDatabase;
 import room.vn.roomwithrxjava2.room.model.Room_User;
 import room.vn.roomwithrxjava2.ui.network.RxNetwork;
 import room.vn.roomwithrxjava2.ui.network.RxShowDialogUtil;
+import room.vn.roomwithrxjava2.ui.utils.ToastUtil;
 import timber.log.Timber;
 
 public class MainActivity extends RxAppCompatActivity {
@@ -43,7 +44,7 @@ public class MainActivity extends RxAppCompatActivity {
                 .subscribeOn(Schedulers.io())
                 .compose(RxShowDialogUtil.createInstance(this).applyDialogForFlowable())
                 .compose(bindToLifecycle())
-                .observeOn(AndroidSchedulers.mainThread())
+                .observeOn(AndroidSchedulers.mainThread()) // hide this line if not use allowMainThreadQueries in AppDatabase
                 .subscribe(user -> {
                     Room_User room_user = new Room_User();
                     room_user.login = user.login;
@@ -57,7 +58,7 @@ public class MainActivity extends RxAppCompatActivity {
                     startActivity(new Intent(MainActivity.this, TestActivity.class));
                 }, throwable -> {
                     Timber.e(throwable.getMessage());
-                    // ToastUtil.getInstance().showToast(this, throwable.getMessage());
+                    ToastUtil.getInstance().showToast(this, throwable.getMessage());
                 });
     }
 
