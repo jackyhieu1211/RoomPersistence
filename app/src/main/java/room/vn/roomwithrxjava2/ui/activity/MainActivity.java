@@ -51,6 +51,7 @@ public class MainActivity extends RxAppCompatActivity {
                     room_user.avatarUrl = user.avatarUrl;
                     room_user.createdAt = user.createdAt;
                     room_user.updatedAt = user.updatedAt;
+                    room_users.clear();
                     room_users.add(room_user);
                     appDatabase.roomDb().insert(room_users);
                     startActivity(new Intent(MainActivity.this, TestActivity.class));

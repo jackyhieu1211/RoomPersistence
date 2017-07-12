@@ -38,7 +38,7 @@ public class TestActivity extends RxAppCompatActivity implements TestAdapter.OnI
         TestAdapter testAdapter = new TestAdapter(roomUsers, this);
         recyclerView.setAdapter(testAdapter);
 
-        AppDatabase.getAppDatabase(this).roomDb().getAllHistoryByTime()
+        AppDatabase.getAppDatabase(this).roomDb().getAll()
                 .compose(bindToLifecycle())
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
@@ -52,7 +52,6 @@ public class TestActivity extends RxAppCompatActivity implements TestAdapter.OnI
     }
 
     @Override
-
     protected void onDestroy() {
         super.onDestroy();
         AppDatabase.destroyInstance();
