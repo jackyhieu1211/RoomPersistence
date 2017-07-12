@@ -21,7 +21,7 @@ public abstract class AppDatabase extends RoomDatabase {
             INSTANCE = Room.databaseBuilder(context.getApplicationContext(), AppDatabase.class, "user-database")
                             // allow queries on the main thread.
                             // Don't do this on a real app!.
-                            //.allowMainThreadQueries()
+                            .allowMainThreadQueries()
                             .build();
         }
         return INSTANCE;

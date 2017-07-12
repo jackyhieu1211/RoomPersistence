@@ -10,6 +10,7 @@ import android.arch.persistence.room.Update;
 import java.util.List;
 
 import io.reactivex.Flowable;
+import io.reactivex.Observable;
 import io.reactivex.Single;
 import seesaa.vn.roomwithrxjava2.api.model.User;
 import seesaa.vn.roomwithrxjava2.room.model.Room_User;

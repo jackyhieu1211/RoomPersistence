@@ -11,7 +11,7 @@ public class User {
     @SerializedName("login")
     @Expose
     public String login;
-    @SerializedName("id_user")
+    @SerializedName("id")
     @Expose
     public Integer id;
     @SerializedName("avatar_url")
